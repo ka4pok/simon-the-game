@@ -19,6 +19,7 @@
                     <div class="round-btn" @click="start">Start</div>
                     <p ref="loser"></p>
                     <div class="levels">
+                        <h3>Game Options:</h3>
                         <p>
                             <label>
                                 <input class="with-gap" name="group1" type="radio"   value="1500" v-model="levelSpeed"/>
@@ -38,6 +39,7 @@
                             </label>
                         </p>
                     </div>
+
                 </div>
             </div>
         </div>
@@ -206,7 +208,7 @@
         font-size: 15px;
         width: 100%;
         max-width: 800px;
-        margin: 0 auto;
+        margin: 30px auto 0;
         text-align: center;
 
         .home-content {
